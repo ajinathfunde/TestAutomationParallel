@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel Execution Suite" parallel="classes" thread-count="3">
+  <test name="Parallel Tests" >
+    <classes>
+      <class name="TestOrg.UIAPIAutomation.Class1"/>
+       <class name="TestOrg.UIAPIAutomation.Class2"/>
+      <class name="TestOrg.UIAPIAutomation.Class3"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
